@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48 (47235) - http://www.bohemiancoding.com/sketch -->
+    <title>Facebook</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M87.117,0 L72.883,0 C72.395,0 72,0.395 72,0.883 L72,15.117 C72,15.605 72.395,16 72.883,16 L80.546,16 L80.546,9.804 L78.461,9.804 L78.461,7.389 L80.546,7.389 L80.546,5.608 C80.546,3.542 81.808,2.417 83.652,2.417 C84.535,2.417 85.294,2.482 85.515,2.512 L85.515,4.671 L84.237,4.672 C83.234,4.672 83.04,5.148 83.04,5.848 L83.04,7.389 L85.431,7.389 L85.12,9.804 L83.04,9.804 L83.04,16 L87.117,16 C87.605,16 88,15.605 88,15.117 L88,0.883 C88,0.395 87.605,0 87.117,0" id="path-1"></path>
+    </defs>
+    <g id="CRX_v2_Large" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1333.000000, -100.000000)">
+        <g id="main-wrapper">
+            <g id="navigation" transform="translate(90.000000, 90.000000)">
+                <g id="social-links" transform="translate(1171.000000, 10.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Facebook" fill="#818281" fill-rule="nonzero" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

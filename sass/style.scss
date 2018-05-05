@@ -1,0 +1,45 @@
+// Site general style Imports
+@import "assts/normalize";
+@import "assts/color-palette";
+@import "assts/typo";
+@import "assts/utils";
+@import "assts/mixins";
+@import "responsive/desktop";
+
+
+// Responsive Breakpoints
+@media screen and (max-width: 1025px) {
+  @import "responsive/tablet-landscape";
+}
+
+@media screen and (max-width: 920px) {
+  @import "responsive/tablet-portrate";
+}
+
+@media screen and (max-width: 767px) {
+  @import "responsive/mobile";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

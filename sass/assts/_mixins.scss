@@ -1,0 +1,27 @@
+// Mixins vars
+@mixin menu-icon($menu-icon-with : 45px) {
+  width: $menu-icon-with;
+  height: 3px;
+  position: relative;
+  background: $gray;
+  &:before{
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: 0;
+    width: $menu-icon-with;
+    height: 3px;
+    background: $gray;
+  }
+  &:after{
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    width: $menu-icon-with;
+    height: 3px;
+    background: $gray;
+  }
+}
+
+

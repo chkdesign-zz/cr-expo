@@ -1,0 +1,49 @@
+// Tablet Landscape
+header{
+  &.header{
+    text-align: center;
+    display: block;
+    padding: 35px 15px 0 15px;
+    .logo,
+    .navigation{
+      display: block;
+    }
+    .logo{
+      margin: 0 auto;
+    }
+    .navigation{
+      padding-top: 35px;
+      .navigation-link{
+        display: inline-block;
+      }
+    }
+  }
+}
+
+.headline{
+  h1{
+    white-space: nowrap;
+  }
+  h2{
+    font-size: 88px;
+    padding-top: 15px;
+  }
+  h3{
+    padding-top: 40px;
+  }
+}
+
+.main-wrapper {
+  background-position: 65% 50%;
+  height: calc(100vh - 238px);
+}
+
+.social-list {
+  position: absolute;
+  bottom: 45px;
+  left: 90px;
+  .social-list-item{
+    margin-left: 0;
+    margin-right: 20px;
+  }
+}

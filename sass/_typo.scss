@@ -1,0 +1,39 @@
+// - - - - - - - Custom Fonts - - - - - - - 
+
+
+
+// Isidora Bold
+@font-face {font-family: Isidora;  src: url(../assets/fonts/Isidora/Isidora-Sans-Bold.ttf);  }
+@font-face {font-family: Isidora;  src: url(../assets/fonts/Isidora/Isidora-Sans-Bold.eot);  }
+@font-face {font-family: Isidora;  src: url(../assets/fonts/Isidora/Isidora-Sans-Bold.woff);  }
+// Helvetica Bold
+@font-face {font-family: Helvetica-Bold;  src: url(../assets/fonts/Helvetica/Helvetica-Bold.ttf);  }
+@font-face {font-family: Helvetica-Bold;  src: url(../assets/fonts/Helvetica/Helvetica-Bold.eot);  }
+@font-face {font-family: Helvetica-Bold;  src: url(../assets/fonts/Helvetica/Helvetica-Bold.woff);  }
+// Helvetica Regular
+@font-face {font-family: Helvetica-Regular;  src: url(../assets/fonts/Helvetica/Helvetica-Regular.ttf);  }
+@font-face {font-family: Helvetica-Regular;  src: url(../assets/fonts/Helvetica/Helvetica-Regular.eot);  }
+@font-face {font-family: Helvetica-Regular;  src: url(../assets/fonts/Helvetica/Helvetica-Regular.woff);  }
+
+// Headline section
+h2, .h2 {
+  color: $black;
+  font-family: Isidora;
+  font-size: 57px;
+  margin: 0px;
+  text-transform: uppercase;
+}
+
+h1, .h1 {
+	color: $orange;
+	font-family: Isidora;
+	font-size: 110px;
+	text-transform: uppercase;
+	margin: 0px;
+}
+h3, .h3 {
+  color: $gray;
+  font-family: Helvetica-Bold;
+  font-size: 24px;
+  margin: 0px;
+}

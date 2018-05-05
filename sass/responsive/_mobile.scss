@@ -1,0 +1,53 @@
+header {
+  &.header {
+    .navigation {
+      display: none;
+    }
+  }
+}
+
+.main-wrapper{
+  overflow: visible;
+  display: block;
+}
+.content{
+  display: flex;
+}
+
+.graphical-elements{
+  .cr-element{
+    display: none;
+  }
+  .hime{
+    width: 200px;
+    right: 0;
+  }
+}
+
+.graphical-elements {
+  display: block;
+  width: auto;
+}
+
+.headline{
+  h1{
+    font-size: 23px;
+  }
+  h2{
+    font-size: 43px;
+  }
+}
+
+.mobile-menu-trigger{
+  display: block;
+  @include menu-icon(30px);
+}
+
+.mobile-menu-container{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 99;
+  background: $white;
+  display: none;
+}
